@@ -30,7 +30,7 @@ export default function Hero() {
       />
 
       {/* ─── DESKTOP layout: two columns ─── */}
-      <div className="hidden lg:flex min-h-screen">
+      <div className="hidden lg:flex flex-row-reverse min-h-screen">
 
         {/* LEFT col — Stav photo */}
         <div className="relative w-[45%] flex-shrink-0">
